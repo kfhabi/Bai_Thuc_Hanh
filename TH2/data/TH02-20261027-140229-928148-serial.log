@@ -1,0 +1,76 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+boot_id,session_id,mode,seq,t_ms,dt_ms,temp_c,rh_pct,valid,error,adc_raw,adc_percent,adc_mv,temp_ma5,rh_ma5,read_ms
+#EVENT,8deda0d3,8deda0d3-1,delay,1,40,"session","TH02 individual option A; mode=delay"
+#I2C,0x27,ACK
+#EVENT,8deda0d3,8deda0d3-1,delay,2,70,"i2c_scan","SDA=21 SCL=22 addresses=0x27 scan_ms=19"
+#EVENT,8deda0d3,8deda0d3-1,delay,3,196,"lcd","initialized address=39 geometry=16x2"
+#READY,TH02,delay,period_ms=3000,max_samples=300
+8deda0d3,8deda0d3-1,delay,1,3215,0,20.20,52.00,1,,3407,83.20,2846,,,26
+8deda0d3,8deda0d3-1,delay,2,6261,3046,21.40,53.00,1,,3408,83.22,2845,,,26
+8deda0d3,8deda0d3-1,delay,3,9307,3046,21.60,53.00,1,,3401,83.05,2848,,,26
+8deda0d3,8deda0d3-1,delay,4,12353,3046,21.90,54.00,1,,3398,82.98,2845,,,26
+8deda0d3,8deda0d3-1,delay,5,15399,3046,22.00,54.00,1,,3407,83.20,2846,21.42,53.20,26
+8deda0d3,8deda0d3-1,delay,6,18445,3046,22.40,55.00,1,,3394,82.88,2843,21.86,53.80,26
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+boot_id,session_id,mode,seq,t_ms,dt_ms,temp_c,rh_pct,valid,error,adc_raw,adc_percent,adc_mv,temp_ma5,rh_ma5,read_ms
+#EVENT,5aae8f44,5aae8f44-1,delay,1,40,"session","TH02 individual option A; mode=delay"
+#I2C,0x27,ACK
+#EVENT,5aae8f44,5aae8f44-1,delay,2,70,"i2c_scan","SDA=21 SCL=22 addresses=0x27 scan_ms=19"
+#EVENT,5aae8f44,5aae8f44-1,delay,3,196,"lcd","initialized address=39 geometry=16x2"
+#READY,TH02,delay,period_ms=3000,max_samples=300
+5aae8f44,5aae8f44-1,delay,1,3215,0,22.30,55.00,1,,3398,82.98,2850,,,26
+5aae8f44,5aae8f44-1,delay,2,6261,3046,21.80,54.00,1,,3408,83.22,2846,,,26
+5aae8f44,5aae8f44-1,delay,3,9307,3046,22.00,54.00,1,,3406,83.17,2850,,,26
+5aae8f44,5aae8f44-1,delay,4,12353,3046,22.10,54.00,1,,3399,83.00,2849,,,26
+5aae8f44,5aae8f44-1,delay,5,15399,3046,21.70,53.00,1,,3401,83.05,2852,21.98,54.00,26
+5aae8f44,5aae8f44-1,delay,6,18445,3046,21.80,53.00,1,,3402,83.08,2850,21.88,53.60,26
+5aae8f44,5aae8f44-1,delay,7,21491,3046,19.60,51.00,1,,3408,83.22,2851,21.44,53.00,26
+5aae8f44,5aae8f44-1,delay,8,24537,3046,22.60,55.00,1,,3399,83.00,2848,21.56,53.20,26
+5aae8f44,5aae8f44-1,delay,9,27583,3046,22.80,55.00,1,,3399,83.00,2847,21.70,53.40,26
+5aae8f44,5aae8f44-1,delay,10,30629,3046,23.00,57.00,1,,3403,83.10,2851,21.96,54.20,26
+#EVENT,5aae8f44,5aae8f44-1,delay,4,33735,"sensor_error","seq=11 dht_read_failed"
+5aae8f44,5aae8f44-1,delay,11,33675,3046,,,0,dht_read_failed,3408,83.22,2846,,,60
+#EVENT,5aae8f44,5aae8f44-1,delay,5,36825,"sensor_error","seq=12 dht_read_failed"
+5aae8f44,5aae8f44-1,delay,12,36765,3090,,,0,dht_read_failed,3411,83.30,2851,,,60
+#EVENT,5aae8f44,5aae8f44-1,delay,6,39915,"sensor_error","seq=13 dht_read_failed"
+5aae8f44,5aae8f44-1,delay,13,39855,3090,,,0,dht_read_failed,3397,82.95,2848,,,60
+#EVENT,5aae8f44,5aae8f44-1,delay,7,43005,"sensor_error","seq=14 dht_read_failed"
+5aae8f44,5aae8f44-1,delay,14,42945,3090,,,0,dht_read_failed,3407,83.20,2845,,,60
+#EVENT,5aae8f44,5aae8f44-1,delay,8,46095,"sensor_error","seq=15 dht_read_failed"
+5aae8f44,5aae8f44-1,delay,15,46035,3090,,,0,dht_read_failed,3407,83.20,2850,,,60
+#EVENT,5aae8f44,5aae8f44-1,delay,9,49185,"sensor_error","seq=16 dht_read_failed"
+5aae8f44,5aae8f44-1,delay,16,49125,3090,,,0,dht_read_failed,3408,83.22,2846,,,60
+#EVENT,5aae8f44,5aae8f44-1,delay,10,52275,"sensor_error","seq=17 dht_read_failed"
+5aae8f44,5aae8f44-1,delay,17,52215,3090,,,0,dht_read_failed,3399,83.00,2850,,,60
+#EVENT,5aae8f44,5aae8f44-1,delay,11,55365,"sensor_error","seq=18 dht_read_failed"
+5aae8f44,5aae8f44-1,delay,18,55305,3090,,,0,dht_read_failed,3408,83.22,2849,,,60
+5aae8f44,5aae8f44-1,delay,19,58395,3090,28.20,60.00,1,,3397,82.95,2844,23.24,55.60,26
+5aae8f44,5aae8f44-1,delay,20,61441,3046,29.00,61.00,1,,3408,83.22,2850,25.12,57.60,26
+5aae8f44,5aae8f44-1,delay,21,64487,3046,28.80,61.00,1,,3405,83.15,2851,26.36,58.80,26
+5aae8f44,5aae8f44-1,delay,22,67533,3046,28.80,61.00,1,,3406,83.17,2849,27.56,60.00,26
+5aae8f44,5aae8f44-1,delay,23,70579,3046,28.80,61.00,1,,3399,83.00,2851,28.72,60.80,26
+5aae8f44,5aae8f44-1,delay,24,73625,3046,28.70,61.00,1,,3405,83.15,2850,28.82,61.00,26
+5aae8f44,5aae8f44-1,delay,25,76671,3046,28.80,60.00,1,,3405,83.15,2850,28.78,60.80,26
+5aae8f44,5aae8f44-1,delay,26,79717,3046,28.70,60.00,1,,3406,83.17,2846,28.76,60.60,26
+5aae8f44,5aae8f44-1,delay,27,82763,3046,28.70,60.00,1,,3406,83.17,2847,28.74,60.40,26
+5aae8f44,5aae8f44-1,delay,28,85809,3046,28.70,60.00,1,,3401,83.05,2850,28.72,60.20,26
+5aae8f44,5aae8f44-1,delay,29,88855,3046,28.60,60.00,1,,3394,82.88,2851,28.70,60.00,26
+5aae8f44,5aae8f44-1,delay,30,91901,3046,28.60,60.00,1,,3408,83.22,2851,28.66,60.00,26

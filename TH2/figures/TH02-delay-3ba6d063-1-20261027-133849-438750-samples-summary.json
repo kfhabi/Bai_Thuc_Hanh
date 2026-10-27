@@ -1,0 +1,18 @@
+{
+  "source": "input CSV; verify provenance using experiment notes",
+  "boot_id": "3ba6d063",
+  "session_id": "3ba6d063-1",
+  "mode": "delay",
+  "samples": 40,
+  "valid": 40,
+  "errors": 0,
+  "error_reasons": {},
+  "missing_sequence_numbers": 0,
+  "configured_period_ms": 3000,
+  "mean_interval_ms": 3046,
+  "min_interval_ms": 3046,
+  "max_interval_ms": 3046,
+  "max_absolute_period_error_ms": 46,
+  "ma5_mismatches": [],
+  "note": "Intervals include sensor and LCD processing time; inspect experiment logs for causes."
+}

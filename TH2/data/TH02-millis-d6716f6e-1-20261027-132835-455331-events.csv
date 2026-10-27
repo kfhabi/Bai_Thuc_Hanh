@@ -1,0 +1,10 @@
+boot_id,session_id,mode,id,t_ms,type,detail
+d6716f6e,d6716f6e-1,millis,1,40,session,TH02 individual option A; mode=millis
+d6716f6e,d6716f6e-1,millis,2,70,i2c_scan,SDA=21 SCL=22 addresses=0x27 scan_ms=19
+d6716f6e,d6716f6e-1,millis,3,197,lcd,initialized address=39 geometry=16x2
+d6716f6e,d6716f6e-1,millis,4,13153,button,lcd_page=filtered
+d6716f6e,d6716f6e-1,millis,5,17925,button,lcd_page=raw
+d6716f6e,d6716f6e-1,millis,6,21664,button,lcd_page=filtered
+d6716f6e,d6716f6e-1,millis,7,25730,button,lcd_page=raw
+d6716f6e,d6716f6e-1,millis,8,31134,button,lcd_page=filtered
+d6716f6e,d6716f6e-1,millis,9,55120,button,lcd_page=raw

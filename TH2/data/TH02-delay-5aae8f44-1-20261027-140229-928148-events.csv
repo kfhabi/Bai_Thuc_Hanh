@@ -1,0 +1,12 @@
+boot_id,session_id,mode,id,t_ms,type,detail
+5aae8f44,5aae8f44-1,delay,1,40,session,TH02 individual option A; mode=delay
+5aae8f44,5aae8f44-1,delay,2,70,i2c_scan,SDA=21 SCL=22 addresses=0x27 scan_ms=19
+5aae8f44,5aae8f44-1,delay,3,196,lcd,initialized address=39 geometry=16x2
+5aae8f44,5aae8f44-1,delay,4,33735,sensor_error,seq=11 dht_read_failed
+5aae8f44,5aae8f44-1,delay,5,36825,sensor_error,seq=12 dht_read_failed
+5aae8f44,5aae8f44-1,delay,6,39915,sensor_error,seq=13 dht_read_failed
+5aae8f44,5aae8f44-1,delay,7,43005,sensor_error,seq=14 dht_read_failed
+5aae8f44,5aae8f44-1,delay,8,46095,sensor_error,seq=15 dht_read_failed
+5aae8f44,5aae8f44-1,delay,9,49185,sensor_error,seq=16 dht_read_failed
+5aae8f44,5aae8f44-1,delay,10,52275,sensor_error,seq=17 dht_read_failed
+5aae8f44,5aae8f44-1,delay,11,55365,sensor_error,seq=18 dht_read_failed

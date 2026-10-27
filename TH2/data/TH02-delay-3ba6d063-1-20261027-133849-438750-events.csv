@@ -1,0 +1,4 @@
+boot_id,session_id,mode,id,t_ms,type,detail
+3ba6d063,3ba6d063-1,delay,1,40,session,TH02 individual option A; mode=delay
+3ba6d063,3ba6d063-1,delay,2,70,i2c_scan,SDA=21 SCL=22 addresses=0x27 scan_ms=19
+3ba6d063,3ba6d063-1,delay,3,196,lcd,initialized address=39 geometry=16x2
