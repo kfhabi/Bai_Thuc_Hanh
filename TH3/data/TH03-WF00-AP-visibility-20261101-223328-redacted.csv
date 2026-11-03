@@ -1,0 +1,5 @@
+t_ms,type,detail
+31652,status,state=STOPPED reason=boot valid=1 duty=0 selected=128 timer_ticks=316 start_falling_edges=0 start_debounced_presses=0 stop_falling_edges=0 stop_debounced_presses=0 portal=0 connecting=0 wifi_failed=0 load=0 gpio27=1 gpio25=1 wifi_mode=1 ap_ip=192.168.4.1
+32431,wifi,portal_open ap=<AP_NAME> address=http://192.168.4.1 channel=1 timeout_ms=120000
+33139,status,state=STOPPED reason=stop valid=1 duty=0 selected=128 timer_ticks=330 start_falling_edges=0 start_debounced_presses=0 stop_falling_edges=0 stop_debounced_presses=0 portal=1 connecting=0 wifi_failed=0 load=0 gpio27=1 gpio25=1 wifi_mode=3 ap_ip=192.168.4.1
+36139,status,state=STOPPED reason=stop valid=1 duty=0 selected=128 timer_ticks=360 start_falling_edges=0 start_debounced_presses=0 stop_falling_edges=0 stop_debounced_presses=0 portal=1 connecting=0 wifi_failed=0 load=0 gpio27=1 gpio25=1 wifi_mode=3 ap_ip=192.168.4.1

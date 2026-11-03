@@ -1,0 +1,2 @@
+1002658,status,"state=STOPPED reason=timeout valid=1 duty=0 selected=255 timer_ticks=10026 start_falling_edges=23 start_debounced_presses=15 stop_falling_edges=0 stop_debounced_presses=0 portal=0 connecting=0 wifi_failed=0 load=1"
+1072384,status,"state=STOPPED reason=timeout valid=1 duty=0 selected=255 timer_ticks=10723 start_falling_edges=39 start_debounced_presses=25 stop_falling_edges=0 stop_debounced_presses=0 portal=0 connecting=0 wifi_failed=0 load=1"

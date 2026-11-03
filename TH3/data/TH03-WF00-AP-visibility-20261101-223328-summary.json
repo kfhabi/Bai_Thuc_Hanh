@@ -1,0 +1,12 @@
+{
+  "test": "WF00_AP_visibility_only",
+  "time_asia_saigon": "20261101-223328",
+  "source_sha256": "ca853a73e3b706ac05c95fc13414c27828485bde268381fa5c319733b9250f4c",
+  "firmware_sha256": "182e6791247b56ec9f3ad1c68a5ecf3815fc94f76d4afa79f10b35634c496ae0",
+  "portal_open": true,
+  "logged_name_matches_source": true,
+  "wlan_scan_detected_source_ap": true,
+  "portal_ip": "192.168.4.1",
+  "note": "AP visibility check only; does not verify target-network credentials, provisioning persistence, or all four required Wi-Fi cases.",
+  "redacted_events_file": "TH03-WF00-AP-visibility-20261101-223328-redacted.csv"
+}

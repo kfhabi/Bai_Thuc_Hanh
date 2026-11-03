@@ -1,0 +1,248 @@
+{
+  "source": "TH03-20261101-221302-070107-events.csv",
+  "source_sha256": "afb9fd2afb4da9dee5b76683cbec9da47540c42ad95296d0e261b9589d800612",
+  "input_rows": 4610,
+  "boot_markers": 2,
+  "selected_boot": 2,
+  "selected_boot_row_index": 222,
+  "clock_config": {
+    "apb_hz": "80000000",
+    "divider": "80",
+    "alarm_ticks": "100000",
+    "nominal_us": "100000",
+    "timestamp_source": "loop_not_ISR"
+  },
+  "start_ms": 4406,
+  "end_ms": 218888,
+  "method": "Last boot; begin at first explicit LOAD event; split at every LOAD event; exclude first timer/millis row of each phase; interval statistics require pending=1 for timer.",
+  "measurement": "loop_dt_us measures loop handling intervals, not ISR timestamps or hardware waveform jitter.",
+  "load_on_condition": "Bounded busy work configured as 3000 us per loop; do not infer button operations without logged button events.",
+  "button_events_in_selected_boot": 0,
+  "pending_max": 1,
+  "pending_gt_one_rows": 0,
+  "phases": [
+    {
+      "load": 0,
+      "start_ms": 4406,
+      "end_ms": 28700,
+      "phase": 1,
+      "duration_ms": 24294,
+      "counts": {
+        "timer": {
+          "raw": 243,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 242
+        },
+        "millis": {
+          "raw": 243,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 242
+        }
+      }
+    },
+    {
+      "load": 1,
+      "start_ms": 28700,
+      "end_ms": 81194,
+      "phase": 2,
+      "duration_ms": 52494,
+      "counts": {
+        "timer": {
+          "raw": 525,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 524
+        },
+        "millis": {
+          "raw": 524,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 523
+        }
+      }
+    },
+    {
+      "load": 0,
+      "start_ms": 81194,
+      "end_ms": 94146,
+      "phase": 3,
+      "duration_ms": 12952,
+      "counts": {
+        "timer": {
+          "raw": 130,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 129
+        },
+        "millis": {
+          "raw": 130,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 129
+        }
+      }
+    },
+    {
+      "load": 1,
+      "start_ms": 94146,
+      "end_ms": 114617,
+      "phase": 4,
+      "duration_ms": 20471,
+      "counts": {
+        "timer": {
+          "raw": 204,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 203
+        },
+        "millis": {
+          "raw": 204,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 203
+        }
+      }
+    },
+    {
+      "load": 0,
+      "start_ms": 114617,
+      "end_ms": 137430,
+      "phase": 5,
+      "duration_ms": 22813,
+      "counts": {
+        "timer": {
+          "raw": 228,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 227
+        },
+        "millis": {
+          "raw": 228,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 227
+        }
+      }
+    },
+    {
+      "load": 1,
+      "start_ms": 137430,
+      "end_ms": 157098,
+      "phase": 6,
+      "duration_ms": 19668,
+      "counts": {
+        "timer": {
+          "raw": 197,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 196
+        },
+        "millis": {
+          "raw": 197,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 196
+        }
+      }
+    },
+    {
+      "load": 0,
+      "start_ms": 157098,
+      "end_ms": 170906,
+      "phase": 7,
+      "duration_ms": 13808,
+      "counts": {
+        "timer": {
+          "raw": 138,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 137
+        },
+        "millis": {
+          "raw": 138,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 137
+        }
+      }
+    },
+    {
+      "load": 1,
+      "start_ms": 170906,
+      "end_ms": 205409,
+      "phase": 8,
+      "duration_ms": 34503,
+      "counts": {
+        "timer": {
+          "raw": 345,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 344
+        },
+        "millis": {
+          "raw": 345,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 344
+        }
+      }
+    },
+    {
+      "load": 0,
+      "start_ms": 205409,
+      "end_ms": 218888,
+      "phase": 9,
+      "duration_ms": 13479,
+      "counts": {
+        "timer": {
+          "raw": 135,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 134
+        },
+        "millis": {
+          "raw": 135,
+          "first_row_excluded": 1,
+          "pending_not_one_excluded": 0,
+          "kept": 134
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "load": 0,
+      "kind": "timer",
+      "samples": 869,
+      "min_ms": 99.994,
+      "mean_ms": 100.00000805523591,
+      "max_ms": 100.005
+    },
+    {
+      "load": 0,
+      "kind": "millis",
+      "samples": 869,
+      "min_ms": 99.996,
+      "mean_ms": 100.00000230149597,
+      "max_ms": 100.004
+    },
+    {
+      "load": 1,
+      "kind": "timer",
+      "samples": 1267,
+      "min_ms": 97.056,
+      "mean_ms": 100.00063930544593,
+      "max_ms": 101.228
+    },
+    {
+      "load": 1,
+      "kind": "millis",
+      "samples": 1266,
+      "min_ms": 100.069,
+      "mean_ms": 100.07927409162717,
+      "max_ms": 101.25
+    }
+  ]
+}
