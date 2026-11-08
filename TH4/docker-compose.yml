@@ -1,0 +1,13 @@
+services:
+  broker:
+    image: eclipse-mosquitto:2.0.22
+    restart: unless-stopped
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./secrets/passwd:/mosquitto/secrets/passwd
+      - broker_data:/mosquitto/data
+
+volumes:
+  broker_data:

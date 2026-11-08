@@ -1,0 +1,348 @@
+17:51:03.312 > ets Jul 29 2019 12:21:46
+17:51:03.314 > 
+17:51:03.314 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+17:51:03.319 > configsip: 0, SPIWP:0xee
+17:51:03.321 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+17:51:03.328 > mode:DIO, clock div:2
+17:51:03.329 > load:0x3fff0030,len:1184
+17:51:03.332 > load:0x40078000,len:13232
+17:51:03.335 > load:0x40080400,len:3028
+17:51:03.337 > entry 0x400805e4
+17:51:03.697 > Queue ready: 10 samples
+17:51:03.699 > SAFETY t_ms=49 state=STOPPED checks=1 max_gap_ms=0 late=0 reason=boot
+17:51:03.816 > QUEUE_STRESS=1
+17:51:04.698 > SAFETY t_ms=1049 state=STOPPED checks=51 max_gap_ms=20 late=0 reason=boot
+17:51:05.697 > SAFETY t_ms=2049 state=STOPPED checks=101 max_gap_ms=20 late=0 reason=boot
+17:51:06.690 > SAFETY t_ms=3049 state=STOPPED checks=151 max_gap_ms=20 late=0 reason=boot
+17:51:06.723 > SENSOR seq=1 queue=1 dropped=0
+17:51:07.698 > SAFETY t_ms=4049 state=STOPPED checks=201 max_gap_ms=20 late=0 reason=boot
+17:51:07.724 > MQTT connect failed: -2
+17:51:08.698 > SAFETY t_ms=5049 state=STOPPED checks=251 max_gap_ms=20 late=0 reason=boot
+17:51:09.698 > SAFETY t_ms=6049 state=STOPPED checks=301 max_gap_ms=20 late=0 reason=boot
+17:51:09.723 > SENSOR seq=2 queue=2 dropped=0
+17:51:09.964 > ets Jul 29 2019 12:21:46
+17:51:09.966 > 
+17:51:09.966 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+17:51:09.971 > configsip: 0, SPIWP:0xee
+17:51:09.974 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+17:51:09.980 > mode:DIO, clock div:2
+17:51:09.983 > load:0x3fff0030,len:1184
+17:51:09.984 > load:0x40078000,len:13232
+17:51:09.987 > load:0x40080400,len:3028
+17:51:09.989 > entry 0x400805e4
+17:51:10.349 > Queue ready: 10 samples
+17:51:10.351 > SAFETY t_ms=49 state=STOPPED checks=1 max_gap_ms=0 late=0 reason=boot
+17:51:10.469 > QUEUE_STRESS=1
+17:51:11.350 > SAFETY t_ms=1049 state=STOPPED checks=51 max_gap_ms=20 late=0 reason=boot
+17:51:12.351 > SAFETY t_ms=2049 state=STOPPED checks=101 max_gap_ms=20 late=0 reason=boot
+17:51:13.350 > SAFETY t_ms=3049 state=STOPPED checks=151 max_gap_ms=20 late=0 reason=boot
+17:51:13.375 > SENSOR seq=1 queue=1 dropped=0
+17:51:14.351 > SAFETY t_ms=4049 state=STOPPED checks=201 max_gap_ms=20 late=0 reason=boot
+17:51:14.377 > MQTT connect failed: -2
+17:51:15.350 > SAFETY t_ms=5049 state=STOPPED checks=251 max_gap_ms=21 late=1 reason=boot
+17:51:16.351 > SAFETY t_ms=6049 state=STOPPED checks=301 max_gap_ms=21 late=1 reason=boot
+17:51:16.376 > SENSOR seq=2 queue=2 dropped=0
+17:51:17.350 > SAFETY t_ms=7049 state=STOPPED checks=351 max_gap_ms=21 late=1 reason=boot
+17:51:18.350 > SAFETY t_ms=8049 state=STOPPED checks=401 max_gap_ms=21 late=1 reason=boot
+17:51:18.386 > MQTT connect failed: -2
+17:51:19.351 > SAFETY t_ms=9049 state=STOPPED checks=451 max_gap_ms=21 late=1 reason=boot
+17:51:19.375 > SENSOR seq=3 queue=3 dropped=0
+17:51:20.350 > SAFETY t_ms=10049 state=STOPPED checks=501 max_gap_ms=21 late=1 reason=boot
+17:51:21.351 > SAFETY t_ms=11049 state=STOPPED checks=551 max_gap_ms=21 late=1 reason=boot
+17:51:22.351 > SAFETY t_ms=12049 state=STOPPED checks=601 max_gap_ms=21 late=1 reason=boot
+17:51:22.376 > SENSOR seq=4 queue=4 dropped=0
+17:51:22.393 > MQTT connect failed: -2
+17:51:23.350 > SAFETY t_ms=13049 state=STOPPED checks=651 max_gap_ms=21 late=1 reason=boot
+17:51:24.350 > SAFETY t_ms=14049 state=STOPPED checks=701 max_gap_ms=21 late=1 reason=boot
+17:51:25.351 > SAFETY t_ms=15049 state=STOPPED checks=751 max_gap_ms=21 late=1 reason=boot
+17:51:25.376 > SENSOR seq=5 queue=5 dropped=0
+17:51:26.351 > SAFETY t_ms=16049 state=STOPPED checks=801 max_gap_ms=21 late=1 reason=boot
+17:51:26.401 > MQTT connect failed: -2
+17:51:27.350 > SAFETY t_ms=17049 state=STOPPED checks=851 max_gap_ms=21 late=1 reason=boot
+17:51:28.351 > SAFETY t_ms=18049 state=STOPPED checks=901 max_gap_ms=21 late=1 reason=boot
+17:51:28.376 > SENSOR seq=6 queue=6 dropped=0
+17:51:29.351 > SAFETY t_ms=19049 state=STOPPED checks=951 max_gap_ms=21 late=1 reason=boot
+17:51:30.351 > SAFETY t_ms=20049 state=STOPPED checks=1001 max_gap_ms=21 late=1 reason=boot
+17:51:30.406 > MQTT connect failed: -2
+17:51:31.348 > SAFETY t_ms=21049 state=STOPPED checks=1051 max_gap_ms=21 late=1 reason=boot
+17:51:31.365 > SENSOR seq=7 queue=7 dropped=0
+17:51:32.339 > SAFETY t_ms=22049 state=STOPPED checks=1101 max_gap_ms=21 late=1 reason=boot
+17:51:33.350 > SAFETY t_ms=23049 state=STOPPED checks=1151 max_gap_ms=21 late=1 reason=boot
+17:51:34.351 > SAFETY t_ms=24049 state=STOPPED checks=1201 max_gap_ms=21 late=1 reason=boot
+17:51:34.376 > SENSOR seq=8 queue=8 dropped=0
+17:51:34.747 > MQTT connect failed: -4
+17:51:35.351 > SAFETY t_ms=25049 state=STOPPED checks=1251 max_gap_ms=21 late=1 reason=boot
+17:51:36.350 > SAFETY t_ms=26049 state=STOPPED checks=1301 max_gap_ms=21 late=1 reason=boot
+17:51:37.351 > SAFETY t_ms=27049 state=STOPPED checks=1351 max_gap_ms=21 late=1 reason=boot
+17:51:37.376 > SENSOR seq=9 queue=9 dropped=0
+17:51:38.351 > SAFETY t_ms=28049 state=STOPPED checks=1401 max_gap_ms=21 late=1 reason=boot
+17:51:38.754 > MQTT connect failed: -2
+17:51:39.350 > SAFETY t_ms=29049 state=STOPPED checks=1451 max_gap_ms=21 late=1 reason=boot
+17:51:40.351 > SAFETY t_ms=30049 state=STOPPED checks=1501 max_gap_ms=21 late=1 reason=boot
+17:51:40.376 > SENSOR seq=10 queue=10 dropped=0
+17:51:41.351 > SAFETY t_ms=31049 state=STOPPED checks=1551 max_gap_ms=21 late=1 reason=boot
+17:51:42.351 > SAFETY t_ms=32049 state=STOPPED checks=1601 max_gap_ms=21 late=1 reason=boot
+17:51:42.761 > MQTT connect failed: -2
+17:51:43.351 > SAFETY t_ms=33049 state=STOPPED checks=1651 max_gap_ms=21 late=1 reason=boot
+17:51:43.376 > SENSOR seq=11 queue=10 dropped=1
+17:51:44.350 > SAFETY t_ms=34049 state=STOPPED checks=1701 max_gap_ms=21 late=1 reason=boot
+17:51:45.350 > SAFETY t_ms=35049 state=STOPPED checks=1751 max_gap_ms=21 late=1 reason=boot
+17:51:46.090 > MQTT connected
+17:51:46.351 > SAFETY t_ms=36049 state=STOPPED checks=1801 max_gap_ms=21 late=1 reason=boot
+17:51:46.376 > SENSOR seq=12 queue=10 dropped=1
+17:51:47.350 > SAFETY t_ms=37049 state=STOPPED checks=1851 max_gap_ms=21 late=1 reason=boot
+17:51:48.351 > SAFETY t_ms=38049 state=STOPPED checks=1901 max_gap_ms=21 late=1 reason=boot
+17:51:49.351 > SAFETY t_ms=39049 state=STOPPED checks=1951 max_gap_ms=21 late=1 reason=boot
+17:51:49.376 > SENSOR seq=13 queue=10 dropped=2
+17:51:50.350 > SAFETY t_ms=40049 state=STOPPED checks=2001 max_gap_ms=21 late=1 reason=boot
+17:51:51.351 > SAFETY t_ms=41049 state=STOPPED checks=2051 max_gap_ms=21 late=1 reason=boot
+17:51:52.351 > SAFETY t_ms=42049 state=STOPPED checks=2101 max_gap_ms=21 late=1 reason=boot
+17:51:52.376 > SENSOR seq=14 queue=10 dropped=3
+17:51:53.351 > SAFETY t_ms=43049 state=STOPPED checks=2151 max_gap_ms=21 late=1 reason=boot
+17:51:54.344 > SAFETY t_ms=44049 state=STOPPED checks=2201 max_gap_ms=21 late=1 reason=boot
+17:51:55.351 > SAFETY t_ms=45049 state=STOPPED checks=2251 max_gap_ms=21 late=1 reason=boot
+17:51:55.375 > SENSOR seq=15 queue=10 dropped=3
+17:51:56.338 > SAFETY t_ms=46049 state=STOPPED checks=2301 max_gap_ms=21 late=1 reason=boot
+17:51:57.345 > SAFETY t_ms=47049 state=STOPPED checks=2351 max_gap_ms=21 late=1 reason=boot
+17:51:58.346 > SAFETY t_ms=48049 state=STOPPED checks=2401 max_gap_ms=21 late=1 reason=boot
+17:51:58.376 > SENSOR seq=16 queue=10 dropped=4
+17:51:59.351 > SAFETY t_ms=49049 state=STOPPED checks=2451 max_gap_ms=21 late=1 reason=boot
+17:52:00.350 > SAFETY t_ms=50049 state=STOPPED checks=2501 max_gap_ms=21 late=1 reason=boot
+17:52:01.338 > SAFETY t_ms=51049 state=STOPPED checks=2551 max_gap_ms=21 late=1 reason=boot
+17:52:01.376 > SENSOR seq=17 queue=10 dropped=5
+17:52:02.350 > SAFETY t_ms=52049 state=STOPPED checks=2601 max_gap_ms=21 late=1 reason=boot
+17:52:03.350 > SAFETY t_ms=53049 state=STOPPED checks=2651 max_gap_ms=21 late=1 reason=boot
+17:52:04.350 > SAFETY t_ms=54049 state=STOPPED checks=2701 max_gap_ms=21 late=1 reason=boot
+17:52:04.375 > SENSOR seq=18 queue=10 dropped=5
+17:52:05.351 > SAFETY t_ms=55049 state=STOPPED checks=2751 max_gap_ms=21 late=1 reason=boot
+17:52:06.351 > SAFETY t_ms=56049 state=STOPPED checks=2801 max_gap_ms=21 late=1 reason=boot
+17:52:07.351 > SAFETY t_ms=57049 state=STOPPED checks=2851 max_gap_ms=21 late=1 reason=boot
+17:52:07.376 > SENSOR seq=19 queue=10 dropped=6
+17:52:08.350 > SAFETY t_ms=58049 state=STOPPED checks=2901 max_gap_ms=21 late=1 reason=boot
+17:52:09.350 > SAFETY t_ms=59049 state=STOPPED checks=2951 max_gap_ms=21 late=1 reason=boot
+17:52:10.350 > SAFETY t_ms=60049 state=STOPPED checks=3001 max_gap_ms=21 late=1 reason=boot
+17:52:10.376 > SENSOR seq=20 queue=10 dropped=6
+17:52:11.351 > SAFETY t_ms=61049 state=STOPPED checks=3051 max_gap_ms=21 late=1 reason=boot
+17:52:12.350 > SAFETY t_ms=62049 state=STOPPED checks=3101 max_gap_ms=21 late=1 reason=boot
+17:52:13.350 > SAFETY t_ms=63049 state=STOPPED checks=3151 max_gap_ms=21 late=1 reason=boot
+17:52:13.376 > SENSOR seq=21 queue=10 dropped=7
+17:52:14.351 > SAFETY t_ms=64049 state=STOPPED checks=3201 max_gap_ms=21 late=1 reason=boot
+17:52:15.351 > SAFETY t_ms=65049 state=STOPPED checks=3251 max_gap_ms=21 late=1 reason=boot
+17:52:16.350 > SAFETY t_ms=66049 state=STOPPED checks=3301 max_gap_ms=21 late=1 reason=boot
+17:52:16.375 > SENSOR seq=22 queue=10 dropped=8
+17:52:17.350 > SAFETY t_ms=67049 state=RUNNING checks=3351 max_gap_ms=21 late=1 reason=start
+17:52:18.223 > MQTT connect failed: -2
+17:52:18.350 > SAFETY t_ms=68049 state=RUNNING checks=3401 max_gap_ms=21 late=1 reason=start
+17:52:19.350 > SAFETY t_ms=69049 state=RUNNING checks=3451 max_gap_ms=21 late=1 reason=start
+17:52:19.375 > SENSOR seq=23 queue=10 dropped=9
+17:52:20.351 > SAFETY t_ms=70049 state=RUNNING checks=3501 max_gap_ms=21 late=1 reason=start
+17:52:21.351 > SAFETY t_ms=71049 state=RUNNING checks=3551 max_gap_ms=21 late=1 reason=start
+17:52:22.230 > MQTT connect failed: -2
+17:52:22.351 > SAFETY t_ms=72049 state=STOPPED checks=3601 max_gap_ms=21 late=1 reason=stop
+17:52:22.375 > SENSOR seq=24 queue=10 dropped=10
+17:52:23.351 > SAFETY t_ms=73049 state=STOPPED checks=3651 max_gap_ms=21 late=1 reason=stop
+17:52:24.350 > SAFETY t_ms=74049 state=STOPPED checks=3701 max_gap_ms=21 late=1 reason=stop
+17:52:25.351 > SAFETY t_ms=75049 state=STOPPED checks=3751 max_gap_ms=21 late=1 reason=stop
+17:52:25.376 > SENSOR seq=25 queue=10 dropped=11
+17:52:26.236 > MQTT connect failed: -2
+17:52:26.351 > SAFETY t_ms=76049 state=STOPPED checks=3801 max_gap_ms=21 late=1 reason=stop
+17:52:27.350 > SAFETY t_ms=77049 state=STOPPED checks=3851 max_gap_ms=21 late=1 reason=stop
+17:52:28.303 > MQTT connected
+17:52:28.351 > SAFETY t_ms=78049 state=STOPPED checks=3901 max_gap_ms=21 late=1 reason=stop
+17:52:28.376 > SENSOR seq=26 queue=10 dropped=12
+17:52:29.351 > SAFETY t_ms=79049 state=STOPPED checks=3951 max_gap_ms=21 late=1 reason=stop
+17:52:29.702 > ets Jul 29 2019 12:21:46
+17:52:29.704 > 
+17:52:29.705 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+17:52:29.709 > configsip: 0, SPIWP:0xee
+17:52:29.712 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+17:52:29.718 > mode:DIO, clock div:2
+17:52:29.720 > load:0x3fff0030,len:1184
+17:52:29.722 > load:0x40078000,len:13232
+17:52:29.724 > load:0x40080400,len:3028
+17:52:29.727 > entry 0x400805e4
+17:52:30.087 > Queue ready: 10 samples
+17:52:30.090 > SAFETY t_ms=49 state=STOPPED checks=1 max_gap_ms=0 late=0 reason=boot
+17:52:30.207 > QUEUE_STRESS=1
+17:52:31.089 > SAFETY t_ms=1049 state=STOPPED checks=51 max_gap_ms=20 late=0 reason=boot
+17:52:32.089 > SAFETY t_ms=2049 state=STOPPED checks=101 max_gap_ms=20 late=0 reason=boot
+17:52:33.089 > SAFETY t_ms=3049 state=STOPPED checks=151 max_gap_ms=20 late=0 reason=boot
+17:52:33.114 > SENSOR seq=1 queue=1 dropped=0
+17:52:34.088 > SAFETY t_ms=4049 state=STOPPED checks=201 max_gap_ms=20 late=0 reason=boot
+17:52:35.088 > SAFETY t_ms=5049 state=STOPPED checks=251 max_gap_ms=20 late=0 reason=boot
+17:52:35.828 > MQTT connect failed: -4
+17:52:36.089 > SAFETY t_ms=6049 state=STOPPED checks=301 max_gap_ms=20 late=0 reason=boot
+17:52:36.115 > SENSOR seq=2 queue=2 dropped=0
+17:52:37.089 > SAFETY t_ms=7049 state=STOPPED checks=351 max_gap_ms=20 late=0 reason=boot
+17:52:38.090 > SAFETY t_ms=8049 state=STOPPED checks=401 max_gap_ms=20 late=0 reason=boot
+17:52:39.089 > SAFETY t_ms=9049 state=STOPPED checks=451 max_gap_ms=20 late=0 reason=boot
+17:52:39.114 > SENSOR seq=3 queue=3 dropped=0
+17:52:40.089 > SAFETY t_ms=10049 state=STOPPED checks=501 max_gap_ms=20 late=0 reason=boot
+17:52:40.592 > MQTT connect failed: -4
+17:52:41.089 > SAFETY t_ms=11049 state=STOPPED checks=551 max_gap_ms=20 late=0 reason=boot
+17:52:42.088 > SAFETY t_ms=12049 state=STOPPED checks=601 max_gap_ms=20 late=0 reason=boot
+17:52:42.112 > SENSOR seq=4 queue=4 dropped=0
+17:52:43.089 > SAFETY t_ms=13049 state=STOPPED checks=651 max_gap_ms=20 late=0 reason=boot
+17:52:44.089 > SAFETY t_ms=14049 state=STOPPED checks=701 max_gap_ms=20 late=0 reason=boot
+17:52:45.089 > SAFETY t_ms=15049 state=STOPPED checks=751 max_gap_ms=20 late=0 reason=boot
+17:52:45.114 > SENSOR seq=5 queue=5 dropped=0
+17:52:45.515 > MQTT connect failed: -4
+17:52:46.089 > SAFETY t_ms=16049 state=STOPPED checks=801 max_gap_ms=20 late=0 reason=boot
+17:52:47.089 > SAFETY t_ms=17049 state=STOPPED checks=851 max_gap_ms=20 late=0 reason=boot
+17:52:48.089 > SAFETY t_ms=18049 state=STOPPED checks=901 max_gap_ms=20 late=0 reason=boot
+17:52:48.114 > SENSOR seq=6 queue=6 dropped=0
+17:52:49.089 > SAFETY t_ms=19049 state=STOPPED checks=951 max_gap_ms=20 late=0 reason=boot
+17:52:49.623 > MQTT connect failed: -2
+17:52:50.089 > SAFETY t_ms=20049 state=STOPPED checks=1001 max_gap_ms=20 late=0 reason=boot
+17:52:51.089 > SAFETY t_ms=21049 state=STOPPED checks=1051 max_gap_ms=20 late=0 reason=boot
+17:52:51.115 > SENSOR seq=7 queue=7 dropped=0
+17:52:52.090 > SAFETY t_ms=22049 state=STOPPED checks=1101 max_gap_ms=20 late=0 reason=boot
+17:52:53.089 > SAFETY t_ms=23049 state=STOPPED checks=1151 max_gap_ms=20 late=0 reason=boot
+17:52:53.651 > MQTT connect failed: -4
+17:52:54.089 > SAFETY t_ms=24049 state=STOPPED checks=1201 max_gap_ms=20 late=0 reason=boot
+17:52:54.114 > SENSOR seq=8 queue=8 dropped=0
+17:52:55.089 > SAFETY t_ms=25049 state=STOPPED checks=1251 max_gap_ms=20 late=0 reason=boot
+17:52:55.682 > MQTT connected
+17:52:56.089 > SAFETY t_ms=26049 state=STOPPED checks=1301 max_gap_ms=20 late=0 reason=boot
+17:52:57.089 > SAFETY t_ms=27049 state=STOPPED checks=1351 max_gap_ms=20 late=0 reason=boot
+17:52:57.114 > SENSOR seq=9 queue=8 dropped=0
+17:52:58.089 > SAFETY t_ms=28049 state=STOPPED checks=1401 max_gap_ms=20 late=0 reason=boot
+17:52:59.089 > SAFETY t_ms=29049 state=STOPPED checks=1451 max_gap_ms=20 late=0 reason=boot
+17:53:00.089 > SAFETY t_ms=30049 state=STOPPED checks=1501 max_gap_ms=20 late=0 reason=boot
+17:53:00.114 > SENSOR seq=10 queue=9 dropped=0
+17:53:01.089 > SAFETY t_ms=31049 state=STOPPED checks=1551 max_gap_ms=20 late=0 reason=boot
+17:53:02.089 > SAFETY t_ms=32049 state=STOPPED checks=1601 max_gap_ms=20 late=0 reason=boot
+17:53:03.089 > SAFETY t_ms=33049 state=STOPPED checks=1651 max_gap_ms=20 late=0 reason=boot
+17:53:03.114 > SENSOR seq=11 queue=10 dropped=0
+17:53:04.089 > SAFETY t_ms=34049 state=STOPPED checks=1701 max_gap_ms=20 late=0 reason=boot
+17:53:05.089 > SAFETY t_ms=35049 state=STOPPED checks=1751 max_gap_ms=20 late=0 reason=boot
+17:53:06.090 > SAFETY t_ms=36049 state=STOPPED checks=1801 max_gap_ms=20 late=0 reason=boot
+17:53:06.114 > SENSOR seq=12 queue=10 dropped=0
+17:53:07.089 > SAFETY t_ms=37049 state=STOPPED checks=1851 max_gap_ms=20 late=0 reason=boot
+17:53:08.090 > SAFETY t_ms=38049 state=STOPPED checks=1901 max_gap_ms=20 late=0 reason=boot
+17:53:09.089 > SAFETY t_ms=39049 state=STOPPED checks=1951 max_gap_ms=20 late=0 reason=boot
+17:53:09.114 > SENSOR seq=13 queue=10 dropped=1
+17:53:10.089 > SAFETY t_ms=40049 state=STOPPED checks=2001 max_gap_ms=20 late=0 reason=boot
+17:53:11.090 > SAFETY t_ms=41049 state=STOPPED checks=2051 max_gap_ms=20 late=0 reason=boot
+17:53:12.089 > SAFETY t_ms=42049 state=STOPPED checks=2101 max_gap_ms=20 late=0 reason=boot
+17:53:12.114 > SENSOR seq=14 queue=10 dropped=1
+17:53:13.088 > SAFETY t_ms=43049 state=STOPPED checks=2151 max_gap_ms=20 late=0 reason=boot
+17:53:14.089 > SAFETY t_ms=44049 state=STOPPED checks=2201 max_gap_ms=20 late=0 reason=boot
+17:53:15.089 > SAFETY t_ms=45049 state=STOPPED checks=2251 max_gap_ms=20 late=0 reason=boot
+17:53:15.114 > SENSOR seq=15 queue=10 dropped=2
+17:53:16.089 > SAFETY t_ms=46049 state=STOPPED checks=2301 max_gap_ms=20 late=0 reason=boot
+17:53:17.089 > SAFETY t_ms=47049 state=STOPPED checks=2351 max_gap_ms=20 late=0 reason=boot
+17:53:18.089 > SAFETY t_ms=48049 state=STOPPED checks=2401 max_gap_ms=20 late=0 reason=boot
+17:53:18.114 > SENSOR seq=16 queue=10 dropped=3
+17:53:19.089 > SAFETY t_ms=49049 state=STOPPED checks=2451 max_gap_ms=20 late=0 reason=boot
+17:53:20.089 > SAFETY t_ms=50049 state=STOPPED checks=2501 max_gap_ms=20 late=0 reason=boot
+17:53:21.089 > SAFETY t_ms=51049 state=STOPPED checks=2551 max_gap_ms=20 late=0 reason=boot
+17:53:21.114 > SENSOR seq=17 queue=10 dropped=3
+17:53:22.089 > SAFETY t_ms=52049 state=STOPPED checks=2601 max_gap_ms=20 late=0 reason=boot
+17:53:22.276 > MQTT connected
+17:53:23.089 > SAFETY t_ms=53049 state=STOPPED checks=2651 max_gap_ms=20 late=0 reason=boot
+17:53:24.090 > SAFETY t_ms=54049 state=STOPPED checks=2701 max_gap_ms=20 late=0 reason=boot
+17:53:24.114 > SENSOR seq=18 queue=10 dropped=4
+17:53:24.419 > MQTT connected
+17:53:25.089 > SAFETY t_ms=55049 state=STOPPED checks=2751 max_gap_ms=20 late=0 reason=boot
+17:53:26.089 > SAFETY t_ms=56049 state=STOPPED checks=2801 max_gap_ms=20 late=0 reason=boot
+17:53:27.089 > SAFETY t_ms=57049 state=STOPPED checks=2851 max_gap_ms=20 late=0 reason=boot
+17:53:27.115 > SENSOR seq=19 queue=10 dropped=5
+17:53:28.089 > SAFETY t_ms=58049 state=STOPPED checks=2901 max_gap_ms=20 late=0 reason=boot
+17:53:29.089 > SAFETY t_ms=59049 state=STOPPED checks=2951 max_gap_ms=20 late=0 reason=boot
+17:53:30.089 > SAFETY t_ms=60049 state=STOPPED checks=3001 max_gap_ms=20 late=0 reason=boot
+17:53:30.114 > SENSOR seq=20 queue=10 dropped=5
+17:53:31.089 > SAFETY t_ms=61049 state=STOPPED checks=3051 max_gap_ms=20 late=0 reason=boot
+17:53:32.089 > SAFETY t_ms=62049 state=STOPPED checks=3101 max_gap_ms=20 late=0 reason=boot
+17:53:33.090 > SAFETY t_ms=63049 state=STOPPED checks=3151 max_gap_ms=20 late=0 reason=boot
+17:53:33.114 > SENSOR seq=21 queue=10 dropped=6
+17:53:34.089 > SAFETY t_ms=64049 state=STOPPED checks=3201 max_gap_ms=20 late=0 reason=boot
+17:53:35.089 > SAFETY t_ms=65049 state=STOPPED checks=3251 max_gap_ms=20 late=0 reason=boot
+17:53:36.089 > SAFETY t_ms=66049 state=RUNNING checks=3301 max_gap_ms=20 late=0 reason=start
+17:53:36.114 > SENSOR seq=22 queue=10 dropped=6
+17:53:37.089 > SAFETY t_ms=67049 state=RUNNING checks=3351 max_gap_ms=20 late=0 reason=start
+17:53:38.090 > SAFETY t_ms=68049 state=RUNNING checks=3401 max_gap_ms=20 late=0 reason=start
+17:53:39.089 > SAFETY t_ms=69049 state=RUNNING checks=3451 max_gap_ms=20 late=0 reason=start
+17:53:39.115 > SENSOR seq=23 queue=10 dropped=7
+17:53:40.089 > SAFETY t_ms=70049 state=STOPPED checks=3501 max_gap_ms=20 late=0 reason=stop
+17:53:41.089 > SAFETY t_ms=71049 state=STOPPED checks=3551 max_gap_ms=20 late=0 reason=stop
+17:53:42.089 > SAFETY t_ms=72049 state=STOPPED checks=3601 max_gap_ms=20 late=0 reason=stop
+17:53:42.114 > SENSOR seq=24 queue=10 dropped=8
+17:53:43.089 > SAFETY t_ms=73049 state=STOPPED checks=3651 max_gap_ms=20 late=0 reason=stop
+17:53:44.089 > SAFETY t_ms=74049 state=STOPPED checks=3701 max_gap_ms=20 late=0 reason=stop
+17:53:45.089 > SAFETY t_ms=75049 state=STOPPED checks=3751 max_gap_ms=20 late=0 reason=stop
+17:53:45.114 > SENSOR seq=25 queue=10 dropped=8
+17:53:46.089 > SAFETY t_ms=76049 state=RUNNING checks=3801 max_gap_ms=20 late=0 reason=start
+17:53:47.090 > SAFETY t_ms=77049 state=RUNNING checks=3851 max_gap_ms=20 late=0 reason=start
+17:53:48.089 > SAFETY t_ms=78049 state=RUNNING checks=3901 max_gap_ms=20 late=0 reason=start
+17:53:48.114 > SENSOR seq=26 queue=10 dropped=9
+17:53:49.090 > SAFETY t_ms=79049 state=RUNNING checks=3951 max_gap_ms=20 late=0 reason=start
+17:53:50.090 > SAFETY t_ms=80049 state=RUNNING checks=4001 max_gap_ms=20 late=0 reason=start
+17:53:51.089 > SAFETY t_ms=81049 state=STOPPED checks=4051 max_gap_ms=20 late=0 reason=timeout
+17:53:51.114 > SENSOR seq=27 queue=10 dropped=10
+17:53:52.090 > SAFETY t_ms=82049 state=STOPPED checks=4101 max_gap_ms=20 late=0 reason=timeout
+17:53:53.089 > SAFETY t_ms=83049 state=STOPPED checks=4151 max_gap_ms=20 late=0 reason=timeout
+17:53:54.089 > SAFETY t_ms=84049 state=STOPPED checks=4201 max_gap_ms=20 late=0 reason=timeout
+17:53:54.114 > SENSOR seq=28 queue=10 dropped=10
+17:53:55.090 > SAFETY t_ms=85049 state=STOPPED checks=4251 max_gap_ms=20 late=0 reason=timeout
+17:53:56.090 > SAFETY t_ms=86049 state=STOPPED checks=4301 max_gap_ms=20 late=0 reason=timeout
+17:53:57.089 > SAFETY t_ms=87049 state=STOPPED checks=4351 max_gap_ms=20 late=0 reason=timeout
+17:53:57.114 > SENSOR seq=29 queue=10 dropped=11
+17:53:58.089 > SAFETY t_ms=88049 state=STOPPED checks=4401 max_gap_ms=20 late=0 reason=timeout
+17:53:59.089 > SAFETY t_ms=89049 state=STOPPED checks=4451 max_gap_ms=20 late=0 reason=timeout
+17:54:00.090 > SAFETY t_ms=90049 state=STOPPED checks=4501 max_gap_ms=20 late=0 reason=timeout
+17:54:00.114 > SENSOR seq=30 queue=10 dropped=11
+17:54:01.090 > SAFETY t_ms=91049 state=STOPPED checks=4551 max_gap_ms=20 late=0 reason=timeout
+17:54:02.086 > SAFETY t_ms=92049 state=STOPPED checks=4601 max_gap_ms=20 late=0 reason=timeout
+17:54:03.089 > SAFETY t_ms=93049 state=STOPPED checks=4651 max_gap_ms=20 late=0 reason=timeout
+17:54:03.114 > SENSOR seq=31 queue=10 dropped=12
+17:54:04.089 > SAFETY t_ms=94049 state=STOPPED checks=4701 max_gap_ms=20 late=0 reason=timeout
+17:54:05.089 > SAFETY t_ms=95049 state=STOPPED checks=4751 max_gap_ms=20 late=0 reason=timeout
+17:54:06.089 > SAFETY t_ms=96049 state=STOPPED checks=4801 max_gap_ms=20 late=0 reason=timeout
+17:54:06.115 > SENSOR seq=32 queue=10 dropped=13
+17:54:07.090 > SAFETY t_ms=97049 state=STOPPED checks=4851 max_gap_ms=20 late=0 reason=timeout
+17:54:08.089 > SAFETY t_ms=98049 state=STOPPED checks=4901 max_gap_ms=20 late=0 reason=timeout
+17:54:09.090 > SAFETY t_ms=99049 state=STOPPED checks=4951 max_gap_ms=20 late=0 reason=timeout
+17:54:09.114 > SENSOR seq=33 queue=10 dropped=13
+17:54:10.089 > SAFETY t_ms=100049 state=STOPPED checks=5001 max_gap_ms=20 late=0 reason=timeout
+17:54:11.089 > SAFETY t_ms=101049 state=STOPPED checks=5051 max_gap_ms=20 late=0 reason=timeout
+17:54:12.089 > SAFETY t_ms=102049 state=STOPPED checks=5101 max_gap_ms=20 late=0 reason=timeout
+17:54:12.114 > SENSOR seq=34 queue=10 dropped=14
+17:54:13.087 > SAFETY t_ms=103049 state=STOPPED checks=5151 max_gap_ms=20 late=0 reason=timeout
+17:54:14.089 > SAFETY t_ms=104049 state=STOPPED checks=5201 max_gap_ms=20 late=0 reason=timeout
+17:54:15.089 > SAFETY t_ms=105049 state=STOPPED checks=5251 max_gap_ms=20 late=0 reason=timeout
+17:54:15.114 > SENSOR seq=35 queue=10 dropped=15
+17:54:16.090 > SAFETY t_ms=106049 state=STOPPED checks=5301 max_gap_ms=20 late=0 reason=timeout
+17:54:17.089 > SAFETY t_ms=107049 state=STOPPED checks=5351 max_gap_ms=20 late=0 reason=timeout
+17:54:18.089 > SAFETY t_ms=108049 state=STOPPED checks=5401 max_gap_ms=20 late=0 reason=timeout
+17:54:18.114 > SENSOR seq=36 queue=10 dropped=15
+17:54:19.089 > SAFETY t_ms=109049 state=STOPPED checks=5451 max_gap_ms=20 late=0 reason=timeout
+17:54:20.089 > SAFETY t_ms=110049 state=STOPPED checks=5501 max_gap_ms=20 late=0 reason=timeout
+17:54:21.089 > SAFETY t_ms=111049 state=STOPPED checks=5551 max_gap_ms=20 late=0 reason=timeout
+17:54:21.114 > SENSOR seq=37 queue=10 dropped=16
+17:54:21.507 > MQTT connect failed: -2
+17:54:22.089 > SAFETY t_ms=112049 state=STOPPED checks=5601 max_gap_ms=20 late=0 reason=timeout
+17:54:23.089 > SAFETY t_ms=113049 state=STOPPED checks=5651 max_gap_ms=20 late=0 reason=timeout
+17:54:24.090 > SAFETY t_ms=114049 state=STOPPED checks=5701 max_gap_ms=20 late=0 reason=timeout
+17:54:24.115 > SENSOR seq=38 queue=10 dropped=17
+17:54:25.089 > SAFETY t_ms=115049 state=STOPPED checks=5751 max_gap_ms=20 late=0 reason=timeout
+17:54:25.514 > MQTT connect failed: -2
+17:54:26.090 > SAFETY t_ms=116049 state=STOPPED checks=5801 max_gap_ms=20 late=0 reason=timeout
+17:54:27.090 > SAFETY t_ms=117049 state=STOPPED checks=5851 max_gap_ms=20 late=0 reason=timeout
+17:54:27.114 > SENSOR seq=39 queue=10 dropped=18
+17:54:28.089 > SAFETY t_ms=118049 state=STOPPED checks=5901 max_gap_ms=20 late=0 reason=timeout
+17:54:29.089 > SAFETY t_ms=119049 state=STOPPED checks=5951 max_gap_ms=20 late=0 reason=timeout
+17:54:29.522 > MQTT connect failed: -2
+17:54:30.089 > SAFETY t_ms=120049 state=STOPPED checks=6001 max_gap_ms=20 late=0 reason=timeout
+17:54:30.114 > SENSOR seq=40 queue=10 dropped=19
+17:54:31.089 > SAFETY t_ms=121049 state=STOPPED checks=6051 max_gap_ms=20 late=0 reason=timeout
+17:54:32.090 > SAFETY t_ms=122049 state=STOPPED checks=6101 max_gap_ms=20 late=0 reason=timeout
+17:54:33.089 > SAFETY t_ms=123049 state=STOPPED checks=6151 max_gap_ms=20 late=0 reason=timeout
+17:54:33.115 > SENSOR seq=41 queue=10 dropped=20
+17:54:33.627 > MQTT connect failed: -2
+17:54:34.089 > SAFETY t_ms=124049 state=STOPPED checks=6201 max_gap_ms=20 late=0 reason=timeout
+17:54:35.089 > SAFETY t_ms=125049 state=STOPPED checks=6251 max_gap_ms=20 late=0 reason=timeout
+17:54:36.089 > SAFETY t_ms=126049 state=STOPPED checks=6301 max_gap_ms=20 late=0 reason=timeout
+17:54:36.114 > SENSOR seq=42 queue=10 dropped=21
+17:54:37.089 > SAFETY t_ms=127049 state=STOPPED checks=6351 max_gap_ms=20 late=0 reason=timeout
+17:54:37.633 > MQTT connect failed: -2
