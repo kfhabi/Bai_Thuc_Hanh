@@ -16,4 +16,3 @@ Trong repo có:
 | TH03 | FSM điều khiển và an toàn trên ESP32 | [Mã nguồn và dữ liệu thử nghiệm](TH3/) |
 | TH04 | MQTT, FreeRTOS và task/queue; bài cá nhân | [Firmware, log và báo cáo](TH4/README.md) · [Ảnh minh chứng](TH4/Bang_chung/) |
 
-TH04 hiện sử dụng DHT11 và thu log trên cùng máy chạy broker; phần cảm biến mưa và thử nhận dữ liệu trên một máy tính khác còn cần bổ sung. Chi tiết kết quả và các phần còn thiếu được ghi trong README của TH04.
